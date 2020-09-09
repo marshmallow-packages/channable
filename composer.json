@@ -1,0 +1,41 @@
+{
+    "name": "marshmallow/channels-channable",
+    "description": "channable",
+    "keywords": ["marshmallow", "channable", "bol.com", "laravel bol.com"],
+    "homepage": "https://github.com/Marshmallow-Development/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stef",
+            "email": "stef@marshmallow.dev",
+            "homepage": "https://marshmallow.dev",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "stef@marshmallow.dev"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4",
+        "laravel/helpers": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Marshmallow\\Channels\\Channable\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Marshmallow\\Channels\\Channable\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Marshmallow\\Channels\\Channable\\ChannableServiceProvider"
+            ]
+        }
+    }
+}
