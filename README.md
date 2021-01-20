@@ -7,3 +7,4 @@
 ```
 composer require marshmallow/channels-bolcom
 ```
+
