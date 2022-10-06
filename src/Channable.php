@@ -60,4 +60,9 @@ class Channable
 			$model->$morph_relationship_name()->update($data);
 		}
 	}
+
+	public function observe($action, $model)
+	{
+		//
+	}
 }
